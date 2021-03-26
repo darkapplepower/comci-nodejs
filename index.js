@@ -94,4 +94,3 @@ module.exports= class Comci{
         return result;
     }
 };
-console.log(module.exports.getSchoolNumber("호곡"))
