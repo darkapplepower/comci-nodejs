@@ -1,0 +1,20 @@
+{
+  "name": "comci",
+  "version": "1.1.0",
+  "description": "컴시간 시간표를 검색합니다",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "darkapplepower",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "iconv-lite": "^0.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darkapplepower/comci-nodejs.git"
+  }
+}
