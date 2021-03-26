@@ -1,6 +1,6 @@
 {
   "name": "comci",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "컴시간 시간표를 검색합니다",
   "main": "index.js",
   "scripts": {
