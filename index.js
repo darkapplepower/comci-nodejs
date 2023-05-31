@@ -17,8 +17,8 @@ module.exports= class Comci{
         console.log();
         for (let t = 1; t < 9; t++) {
             for (let we = 1; we < 7; we++) {
-                ord = data[zaryo[0]][grade][cl][we][t];
-                dad = data[zaryo[1]][grade][cl][we][t];
+                ord = data[zaryo[0]][grade][cl][we][t]||0;
+                dad = data[zaryo[1]][grade][cl][we][t]||0;
                 th = Math.floor(dad / 100);
                 sb = dad - th * 100;
                 if (dad > 100) {
