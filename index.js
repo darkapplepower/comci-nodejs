@@ -23,7 +23,7 @@ module.exports = class Comci {
                     th = data.분리 == 100 ? dad / data.분리|0 : dad % data.분리;
                     sb = data.분리 == 100 ? dad % data.분리 : dad / data.분리|0;
                     ttt = Math.floor(sb / data.분리);
-                    tt = data.분리 == 100 ? '' : (ttt >= 1 && ttt <= 9) ? String.fromCharCode(t + 64) + "_" : '';
+                    tt = data.분리 == 100 ? '' : (ttt >= 1 && ttt <= 9) ? String.fromCharCode(ttt + 64) + "_" : '';
                     sb = sb % data.분리;
                     if (th < data[zaryo[3]].length) {
                         na = data[zaryo[4]][th].substr(0, 2);
