@@ -14,7 +14,6 @@ module.exports = class Comci {
         result.수업시간 = JSON.parse(JSON.stringify(data.일과시간));
         result.시간표 = [[], [], [], [], [], []];
         var ord, dad, th, sb, na, tt, ttt;
-        console.log();
         for (let t = 1; t < 9; t++) {
             for (let we = 1; we < 6; we++) {
                 ord = data[zaryo[0]][grade][cl][we][t] || 0;
